@@ -1,0 +1,68 @@
+.insys-comment-parent {
+	font-size: 12px;
+	line-height: 14px;
+}
+	.insys-comment-parent > div {
+		display: inline-block;
+	}
+		.insys-comment-parent > div:hover {
+			
+		}
+	
+	.insys-comment-parent label {
+		line-height: 12px;
+		display: inline-block;
+		margin: 0 5px 0 0;
+		padding: 2px 4px 2px 4px;
+		color: white;
+		background-color: darkgray;
+		border-radius: 4px;
+		cursor: pointer;
+		transition: all 0.4s;
+		opacity: 0.4;
+		vertical-align: top;
+	}
+		.insys-comment-parent > div:hover label{
+			opacity: 1;
+		}
+
+		.insys-comment-parent label:hover,
+		.insys-comment-parent label.active {
+			background-color: #21759b;
+			opacity: 1;
+		}
+
+		.insys-comment-parent input[type="radio"] {
+			cursor: pointer;
+			margin: 0 2px 0 0;
+			padding: 0;
+			vertical-align: top;
+		}
+
+	.insys-comment-parent a {
+		background-color: darkgray;
+		color: white;
+		display: inline-block;
+		padding: 1px 4px 2px 4px;
+		border-radius: 4px;
+		text-decoration: none;
+		transition: all 0.4s;
+	}
+
+		.insys-comment-parent a {
+			display: none;
+		}
+			.insys-comment-parent a.active {
+				display: inline-block;
+			}
+
+		.insys-comment-parent > div a {
+			opacity: 0.4;
+		}
+			.insys-comment-parent > div:hover a {
+				opacity: 1;
+			}
+
+		.insys-comment-parent a:hover {
+			background-color: #21759b;
+		}
